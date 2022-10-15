@@ -16,16 +16,16 @@ body {
 }
 
 .card2 {
-    width: 50px;
+    width: 150px;
     height: auto;
     padding: 30px;
     
-    background: white;
-    
-    box-shadow: 0 2px 49px 28px #ffffff;
-    border-radius: 10px;
+    background: #ffffff50;
+    text-align: center;
+    border-radius: 30px;
 }
 
+/* Текст */
 .title {
     text-align: center;
     color: #2a2a2a;  
@@ -42,64 +42,53 @@ body {
 
 .post {
     height: auto;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 100px;
     padding: 30px;
     
     background: white;
     
     box-shadow: 15px 11px 28px #ffffff;
-    border-radius: 10px;
+    border-radius: 60px;
 }
 
+/* Про фото */
 .photo-logo {
     display: block;
     width: auto;
-    height: 160px;
+    height: 100px;
     border-radius: 10px;
-    margin: 0 auto;
 }
 
-.photo-tg {
+.photo-social {
     width: 50px;
+    margin-top: 10px;
 }
-
-.photo-vk {
-    width: 50px;
-    margin-top: 20px;
-}
-
-
-
-
-
-
-
-
 
 
 
 
 /* Анимация Dinelo_ */
 .typewriter h1 {
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden;
-  border-right: .15em solid black;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation: 
-    typing 2s steps(7, end),
-    blink-caret .5s step-end infinite;
+    color: #fff;
+    
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 25px auto;
+    margin-left: 25px;
+    letter-spacing: .15em;
+    animation: 
+        typing 2s steps(7, end),
+        blink-caret .5s step-end infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+    from { width: 0 }
+    to { width: 100% }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black }
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
