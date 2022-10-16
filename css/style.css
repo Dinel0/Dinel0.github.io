@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(90deg, #8aa5ff, #4456a5);
+    background: linear-gradient(90deg, #3C8FF0, #25E1D6);
     font-family: sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     
-    background: linear-gradient(45deg, #25E1D6, #36C4F1, #3C8FF0);
+    background: linear-gradient(45deg, #25E1D6, #3C8FF0);
     
     box-shadow: 0 2px 49px 28px #ffffff;
 }
@@ -56,9 +56,7 @@ body {
     margin: 100px;
     padding: 30px;
     
-    background: white;
-    
-    box-shadow: 15px 11px 28px #ffffff;
+    background: rgba(255, 255, 255, 0.514);
     border-radius: 60px;
 }
 
