@@ -12,7 +12,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     
-    background: linear-gradient(45deg, #25E1D6, #3C8FF0);
+    background: linear-gradient(45deg, #25E1D6, #36C4F1, #3C8FF0);
     
     box-shadow: 0 2px 49px 28px #ffffff;
 }
