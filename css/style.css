@@ -9,6 +9,8 @@ body {
     margin: 0 auto;
     padding: 30px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
     background: linear-gradient(45deg, #25E1D6, #3C8FF0);
     
@@ -25,6 +27,10 @@ body {
     border-radius: 30px;
 }
 
+.social {
+    text-decoration: none;
+}
+
 /* Текст */
 .title {
     text-align: center;
@@ -37,7 +43,12 @@ body {
 
 .text {
     text-align: left
-    color: black;
+}
+
+.textd {
+    width: auto;
+    margin: 0 auto; 
+    text-align: center;
 }
 
 .post {
@@ -53,7 +64,7 @@ body {
 
 /* Про фото */
 .photo-logo {
-    display: block;
+    display: flex;
     width: auto;
     height: 100px;
     border-radius: 10px;
