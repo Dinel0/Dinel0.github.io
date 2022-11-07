@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(90deg, #3C8FF0, #25E1D6);
+    background: linear-gradient(90deg, #3d885f, #2f7e53);
     font-family: sans-serif;
 }
 
@@ -9,29 +9,23 @@ body {
     margin: 0 auto;
     padding: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     
-    background: linear-gradient(45deg, #25E1D6, #3C8FF0);
+    background: linear-gradient(45deg, #35654d, #274e3a);
     
     box-shadow: 0 2px 49px 28px #ffffff;
 }
 
 .card2 {
-    width: 150px;
+    width: 50px;
     height: auto;
     padding: 30px;
     
-    background: #ffffff50;
-    text-align: center;
-    border-radius: 30px;
+    background: white;
+    
+    box-shadow: 0 2px 49px 28px #ffffff;
+    border-radius: 10px;
 }
 
-.social {
-    text-decoration: none;
-}
-
-/* Текст */
 .title {
     text-align: center;
     color: #2a2a2a;  
@@ -43,61 +37,112 @@ body {
 
 .text {
     text-align: left
+    color: #2a2a2a;
 }
 
-.textd {
-    width: auto;
-    margin: 0 auto; 
-    text-align: center;
+.text-about {
+    background-color: rgba(255, 255, 255, 0.56);
+    text-align: center; 
+    border-radius: 30px;
+    color: #000000;
 }
 
-.post {
-    height: auto;
-    margin: 100px;
-    padding: 30px;
-    
-    background: rgba(255, 255, 255, 0.514);
-    border-radius: 60px;
-}
 
-/* Про фото */
+
 .photo-logo {
-    display: flex;
+    display: block;
     width: auto;
-    height: 100px;
+    height: 160px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
-.photo-social {
+.photo-tg {
     width: 50px;
-    margin-top: 10px;
 }
+
+.photo-vk {
+    width: 50px;
+    margin-top: 20px;
+}
+
+.photo-prog {
+    width: 250px;
+    margin: 20px;
+}
+
+.honor50 {
+    width: 300px;
+}
+
+.ip3gs {
+    width: 300px;
+}
+
+.laptop {
+    width: 500px;
+}
+
+.about-div {
+    display: flex;
+}
+
+.about1 {
+    background-color: #336a2e;
+    margin: 20px;
+    border-radius: 30px;
+    height: 350px;
+}
+
+.about2 {
+    background-color: #29dcac;
+    border-radius: 30px;
+    margin: 20px;
+    height: 350px;
+}
+
+.about3  {
+    background-color: #22c0ce;
+    border-radius: 30px;
+    margin: 20px;
+    height: 400px;
+}
+
+.about4  {
+    background-color: #2071c2;
+    border-radius: 30px;
+    margin: 20px;
+    height: 500px;
+}
+
+
+
+
+
+
 
 
 
 
 /* Анимация Dinelo_ */
 .typewriter h1 {
-    color: #fff;
-    
-    font-family: monospace;
-    overflow: hidden;
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 25px auto;
-    margin-left: 25px;
-    letter-spacing: .15em;
-    animation: 
-        typing 2s steps(7, end),
-        blink-caret .5s step-end infinite;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 2s steps(7, end),
+    blink-caret .5s step-end infinite;
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  from { width: 0 }
+  to { width: 100% }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-}
+  from, to { border-color: transparent }
+  50% { border-color: black }
